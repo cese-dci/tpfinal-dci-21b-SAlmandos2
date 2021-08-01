@@ -1,0 +1,30 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Battery
+D Multiple-cell battery
+K batt voltage-source cell
+F ~
+$ENDCMP
+#
+$CMP CP2104
+D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
+K uart usb bridge interface transceiver
+F https://www.silabs.com/documents/public/data-sheets/cp2104.pdf
+$ENDCMP
+#
+$CMP ESP-12
+D 802.11 b/g/n Wi-Fi Module
+F https://www.elecrow.com/download/ESP-12S_User_Manual.pdf
+$ENDCMP
+#
+$CMP H7650-33PR
+F https://xonstorage.blob.core.windows.net/pdf/siproin_h765033pr_Lcs01_link.pdf
+$ENDCMP
+#
+$CMP PCA9539APW
+D Low voltage 16-bit I2C bus I/O port with interrupt and reset
+K I2C port
+F https://www.nxp.com/docs/en/data-sheet/PCA9539A.pdf
+$ENDCMP
+#
+#End Doc Library

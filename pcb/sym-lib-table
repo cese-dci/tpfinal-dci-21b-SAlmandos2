@@ -1,8 +1,3 @@
 (sym_lib_table
-  (lib (name Display)(type Legacy)(uri ${KIPRJMOD}/Display.lib)(options "")(descr ""))
-  (lib (name Interface_Expansion_TP)(type Legacy)(uri ${KIPRJMOD}/Interface_Expansion_TP.lib)(options "")(descr ""))
-  (lib (name RF_Module_TP)(type Legacy)(uri ${KIPRJMOD}/RF_Module_TP.lib)(options "")(descr ""))
-  (lib (name Regulator_Linear_TP)(type Legacy)(uri ${KIPRJMOD}/Regulator_Linear_TP.lib)(options "")(descr ""))
-  (lib (name Interface_USB_TP)(type Legacy)(uri ${KIPRJMOD}/Interface_USB_TP.lib)(options "")(descr ""))
-  (lib (name Power_TP)(type Legacy)(uri ${KIPRJMOD}/Power_TP.lib)(options "")(descr ""))
+  (lib (name Components_TP)(type Legacy)(uri ${KIPRJMOD}/Components_TP.lib)(options "")(descr ""))
 )

@@ -1,16 +1,14 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
+* Autor: Santiago Nicolas Almandos Marinzulich
+* Título corto del trabajo:  Replica Nibble
+* Descripción:  Nibble es una consola de videojuegos educacional hecha por vos mismo
 
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+
+Este trabajo se encuentra bajo licencia [GNU GPL 3.0](../gpl-3.0.txt)
 
 ## Estructura del TP FINAL ##
 

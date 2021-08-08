@@ -54,7 +54,7 @@ U 1 1 60E242D5
 P 8600 4850
 F 0 "SW2" H 8600 5135 50  0000 C CNN
 F 1 "SW_SPDT" H 8600 5044 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled" H 8600 4850 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_CuK_JS202011AQN_DPDT_Angled" H 8600 4850 50  0001 C CNN
 F 3 "~" H 8600 4850 50  0001 C CNN
 	1    8600 4850
 	-1   0    0    -1  
@@ -17613,4 +17613,8 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    10350 1750
 	1    0    0    -1  
 $EndComp
+Text Label 1400 5800 0    50   ~ 0
+D+
+Text Label 1400 5900 0    50   ~ 0
+D-
 $EndSCHEMATC

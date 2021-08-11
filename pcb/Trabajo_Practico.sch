@@ -397,56 +397,56 @@ Wire Wire Line
 Wire Wire Line
 	4000 2400 4000 2450
 $Comp
-L Switch:SW_MEC_5G SW3
+L Switch:SW_Push SW3
 U 1 1 61087190
 P 10350 1400
 F 0 "SW3" H 10200 1600 50  0000 C CNN
 F 1 "UP" H 10550 1600 50  0000 C CNN
-F 2 "TP_Footprints:SW_PUSH_6mm_H4.3mm" H 10350 1600 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 10350 1600 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10350 1600 50  0001 C CNN
 	1    10350 1400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW5
+L Switch:SW_Push SW5
 U 1 1 6108F321
 P 10350 2100
 F 0 "SW5" H 10200 2300 50  0000 C CNN
 F 1 "LEFT" H 10500 2300 50  0000 L CNN
-F 2 "TP_Footprints:SW_PUSH_6mm_H4.3mm" H 10350 2300 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 10350 2300 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10350 2300 50  0001 C CNN
 	1    10350 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW6
+L Switch:SW_Push SW6
 U 1 1 61097E28
 P 10350 2450
 F 0 "SW6" H 10200 2650 50  0000 C CNN
 F 1 "RIGHT" H 10600 2650 50  0000 C CNN
-F 2 "TP_Footprints:SW_PUSH_6mm_H4.3mm" H 10350 2650 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 10350 2650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10350 2650 50  0001 C CNN
 	1    10350 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW7
+L Switch:SW_Push SW7
 U 1 1 6109AB65
 P 10350 2800
 F 0 "SW7" H 10200 3000 50  0000 C CNN
 F 1 "A" H 10550 3000 50  0000 C CNN
-F 2 "TP_Footprints:SW_PUSH_6mm_H4.3mm" H 10350 3000 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 10350 3000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10350 3000 50  0001 C CNN
 	1    10350 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW9
+L Switch:SW_Push SW9
 U 1 1 610A0B8E
 P 10350 3500
 F 0 "SW9" H 10200 3700 50  0000 C CNN
 F 1 "C" H 10550 3700 50  0000 C CNN
-F 2 "TP_Footprints:SW_PUSH_6mm_H4.3mm" H 10350 3700 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 10350 3700 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10350 3700 50  0001 C CNN
 	1    10350 3500
 	1    0    0    -1  
@@ -1079,18 +1079,6 @@ Wire Wire Line
 	1300 5900 1700 5900
 Wire Wire Line
 	1300 5800 1700 5800
-$Comp
-L Connector:USB_B_Micro J1
-U 1 1 60E1A771
-P 1000 5800
-F 0 "J1" H 1057 6267 50  0000 C CNN
-F 1 "USB_B_Micro" H 1057 6176 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1150 5750 50  0001 C CNN
-F 3 "~" H 1150 5750 50  0001 C CNN
-F 4 "https://ar.mouser.com/ProductDetail/Amphenol-FCI/10104110-0001LF?qs=%2Fha2pyFaduhgqo4mn6c%2FF%2F%2FdJtEtsNLYAPU1cSaXVJFvBbc5r%252BFA%252B%2FK9ZINccakG" H 1000 5800 50  0001 C CNN "Mouser"
-	1    1000 5800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Transistor_BJT:UMH3N Q1
 U 2 1 60E18F21
@@ -17568,12 +17556,12 @@ Wire Wire Line
 Wire Wire Line
 	10550 3500 10800 3500
 $Comp
-L Switch:SW_MEC_5G SW8
+L Switch:SW_Push SW8
 U 1 1 6109DAEE
 P 10350 3150
 F 0 "SW8" H 10200 3350 50  0000 C CNN
 F 1 "B" H 10550 3350 50  0000 C CNN
-F 2 "TP_Footprints:SW_PUSH_6mm_H4.3mm" H 10350 3350 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 10350 3350 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10350 3350 50  0001 C CNN
 	1    10350 3150
 	1    0    0    -1  
@@ -17603,12 +17591,12 @@ Wire Wire Line
 Wire Wire Line
 	9550 2450 10150 2450
 $Comp
-L Switch:SW_MEC_5G SW4
+L Switch:SW_Push SW4
 U 1 1 6108A64D
 P 10350 1750
 F 0 "SW4" H 10200 1950 50  0000 C CNN
 F 1 "DOWN" H 10600 1950 50  0000 C CNN
-F 2 "TP_Footprints:SW_PUSH_6mm_H4.3mm" H 10350 1950 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 10350 1950 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10350 1950 50  0001 C CNN
 	1    10350 1750
 	1    0    0    -1  
@@ -17617,4 +17605,24 @@ Text Label 1400 5800 0    50   ~ 0
 D+
 Text Label 1400 5900 0    50   ~ 0
 D-
+Text Notes 550  6750 0    50   ~ 0
+Impedancia controlada \n90 ohm diferencial
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 60E1A771
+P 1000 5800
+F 0 "J1" H 1057 6267 50  0000 C CNN
+F 1 "USB_B_Micro" H 1057 6176 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1150 5750 50  0001 C CNN
+F 3 "~" H 1150 5750 50  0001 C CNN
+F 4 "https://ar.mouser.com/ProductDetail/Amphenol-FCI/10104110-0001LF?qs=%2Fha2pyFaduhgqo4mn6c%2FF%2F%2FdJtEtsNLYAPU1cSaXVJFvBbc5r%252BFA%252B%2FK9ZINccakG" H 1000 5800 50  0001 C CNN "Mouser"
+	1    1000 5800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1550 5750 1550 6550
+Wire Notes Line
+	1550 6550 1350 6750
+Wire Notes Line
+	550  6750 1350 6750
 $EndSCHEMATC

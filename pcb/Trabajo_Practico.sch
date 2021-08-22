@@ -18,25 +18,14 @@ L Components_TP:PCA9539APW U3
 U 1 1 60E0F138
 P 7200 2550
 F 0 "U3" H 6800 3600 50  0000 C CNN
-F 1 "PCA9539APW" H 7500 3600 50  0000 C CNN
+F 1 "GPIO Expander" H 7500 3600 50  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 6800 3600 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9539A.pdf" H 6800 3600 50  0001 C CNN
-F 4 "https://ar.mouser.com/ProductDetail/NXP-Semiconductors/PCA9539APW118?qs=%2Fha2pyFaduh%2Fi8YhwVy9WcgkUZjuwavpcMUMzd3dW5Ablgd5XfULPA%3D%3D" H 7200 2550 50  0001 C CNN "Mouser Link"
-F 5 "771-PCA9539APW,118" H 7200 2550 50  0001 C CNN "Mouser"
+F 4 "NXP Semiconductors" H 7200 2550 50  0001 C CNN "Manuf"
+F 5 "PCA9539APW,118" H 7200 2550 50  0001 C CNN "Manuf#"
+F 6 "https://ar.mouser.com/ProductDetail/NXP-Semiconductors/PCA9539APW118?qs=%2Fha2pyFaduh%2Fi8YhwVy9WcgkUZjuwavpcMUMzd3dW5Ablgd5XfULPA%3D%3D" H 7200 2550 50  0001 C CNN "Mouser Link"
+F 7 "771-PCA9539APW,118" H 7200 2550 50  0001 C CNN "Mouser"
 	1    7200 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Components_TP:ESP-12 U2
-U 1 1 60E12E5A
-P 3050 2050
-F 0 "U2" H 2600 2750 50  0000 C CNN
-F 1 "ESP-12" H 2700 2650 50  0000 C CNN
-F 2 "TP_Footprints:ESP-12E" H 2600 2650 50  0001 C CNN
-F 3 "https://www.elecrow.com/download/ESP-12S_User_Manual.pdf" H 2600 2650 50  0001 C CNN
-F 4 "" H 3050 2050 50  0001 C CNN "Mouser Link"
-F 5 "" H 3050 2050 50  0001 C CNN "Mouser"
-	1    3050 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -58,6 +47,8 @@ F 0 "F1" H 9100 5035 50  0000 C CNN
 F 1 "Fuse_Holder_Small" H 9100 4944 50  0000 C CNN
 F 2 "TP_Footprints:Fuse_Holder_Littefuse_Nano" H 9100 4850 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 9100 4850 50  0001 C CNN
+F 4 "Littelfuse" H 9100 4850 50  0001 C CNN "Manuf"
+F 5 "0154001.DRTL" H 9100 4850 50  0001 C CNN "Manuf#"
 	1    9100 4850
 	1    0    0    -1  
 $EndComp
@@ -793,11 +784,13 @@ L Device:Buzzer BZ1
 U 1 1 60E1B5EE
 P 5350 2200
 F 0 "BZ1" H 5502 2229 50  0000 L CNN
-F 1 "CMT-8503-85B-SMT-TR" H 5150 1650 50  0000 L CNN
+F 1 "Buzzer" H 5150 1650 50  0000 L CNN
 F 2 "TP_Footprints:MagneticBuzzer_CUI_CMT-8504-100-SMT" V 5325 2300 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/670/cmt_8503_85b_smt_tr-1777166.pdf" V 5325 2300 50  0001 C CNN
-F 4 "https://ar.mouser.com/ProductDetail/CUI-Devices/CMT-8503-85B-SMT-TR?qs=P1JMDcb91o7ndeE%252B1xd5mQ%3D%3D" H 5350 2200 50  0001 C CNN "Mouser Link"
-F 5 "490-CMT-850385BSMTTR" H 5350 2200 50  0001 C CNN "Mouser"
+F 4 "CUI Devices" H 5350 2200 50  0001 C CNN "Manuf"
+F 5 "CMT-8503-85B-SMT-TR" H 5350 2200 50  0001 C CNN "Manuf#"
+F 6 "https://ar.mouser.com/ProductDetail/CUI-Devices/CMT-8503-85B-SMT-TR?qs=P1JMDcb91o7ndeE%252B1xd5mQ%3D%3D" H 5350 2200 50  0001 C CNN "Mouser Link"
+F 7 "490-CMT-850385BSMTTR" H 5350 2200 50  0001 C CNN "Mouser"
 	1    5350 2200
 	1    0    0    -1  
 $EndComp
@@ -846,9 +839,10 @@ L Components_TP:ST7735_1.44_128x128_SPI DS1
 U 1 1 60E080FB
 P 6400 5200
 F 0 "DS1" H 6500 5750 50  0000 L CNN
-F 1 "ST7735_1.44_128x128_SPI" H 6500 5650 50  0000 L CNN
+F 1 "TFT Display 1.44''" H 6500 5650 50  0000 L CNN
 F 2 "TP_Footprints:TFT_1.44I_SPI" H 6000 5700 50  0001 C CNN
 F 3 "" H 6000 5700 50  0001 C CNN
+F 4 "ST7735_1.44_128x128_SPI" H 6400 5200 50  0001 C CNN "Manuf#"
 	1    6400 5200
 	1    0    0    -1  
 $EndComp
@@ -1079,8 +1073,10 @@ F 0 "Q1" V 4350 6150 50  0000 L CNN
 F 1 "UMH3N" V 4450 6150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4005 5860 50  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf" H 4150 6300 50  0001 C CNN
-F 4 "755-UMH3NFHATN" V 4000 6300 50  0001 C CNN "Mouser"
-F 5 "https://ar.mouser.com/ProductDetail/ROHM-Semiconductor/UMH3NFHATN?qs=4v%252BiZTmLVHETwyIExWQvig%3D%3D" V 4000 6300 50  0001 C CNN "Mouser Link"
+F 4 "ROHM Semiconductor" V 4000 6300 50  0001 C CNN "Manuf"
+F 5 "UMH3NFHATN" V 4000 6300 50  0001 C CNN "Manuf#"
+F 6 "755-UMH3NFHATN" V 4000 6300 50  0001 C CNN "Mouser"
+F 7 "https://ar.mouser.com/ProductDetail/ROHM-Semiconductor/UMH3NFHATN?qs=4v%252BiZTmLVHETwyIExWQvig%3D%3D" V 4000 6300 50  0001 C CNN "Mouser Link"
 	2    4000 6300
 	0    1    1    0   
 $EndComp
@@ -1092,8 +1088,10 @@ F 0 "Q1" V 4350 5400 50  0000 L CNN
 F 1 "UMH3N" V 4450 5400 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4005 5060 50  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf" H 4150 5500 50  0001 C CNN
-F 4 "755-UMH3NFHATN" V 4000 5500 50  0001 C CNN "Mouser"
-F 5 "https://ar.mouser.com/ProductDetail/ROHM-Semiconductor/UMH3NFHATN?qs=4v%252BiZTmLVHETwyIExWQvig%3D%3D" V 4000 5500 50  0001 C CNN "Mouser Link"
+F 4 "ROHM Semiconductor" V 4000 5500 50  0001 C CNN "Manuf"
+F 5 "UMH3NFHATN" V 4000 5500 50  0001 C CNN "Manuf#"
+F 6 "755-UMH3NFHATN" V 4000 5500 50  0001 C CNN "Mouser"
+F 7 "https://ar.mouser.com/ProductDetail/ROHM-Semiconductor/UMH3NFHATN?qs=4v%252BiZTmLVHETwyIExWQvig%3D%3D" V 4000 5500 50  0001 C CNN "Mouser Link"
 	1    4000 5500
 	0    1    1    0   
 $EndComp
@@ -17540,11 +17538,13 @@ L Components_TP:CP2104 U1
 U 1 1 60E1CDB5
 P 2400 6050
 F 0 "U1" H 1900 5050 50  0000 C CNN
-F 1 "CP2104" H 2000 4950 50  0000 C CNN
+F 1 "USB2UART" H 2000 4950 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 2550 5100 50  0001 L CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/cp2104.pdf" H 1850 7300 50  0001 C CNN
-F 4 "https://ar.mouser.com/ProductDetail/Silicon-Labs/CP2104-F03-GM?qs=j12q4iUN960zrcKDk%2FjKbw%3D%3D" H 2400 6050 50  0001 C CNN "Mouser Link"
-F 5 "634-CP2104-F03-GM" H 2400 6050 50  0001 C CNN "Mouser"
+F 4 "Silicon Labs" H 2400 6050 50  0001 C CNN "Manuf"
+F 5 "CP2104-F03-GM" H 2400 6050 50  0001 C CNN "Manuf#"
+F 6 "https://ar.mouser.com/ProductDetail/Silicon-Labs/CP2104-F03-GM?qs=j12q4iUN960zrcKDk%2FjKbw%3D%3D" H 2400 6050 50  0001 C CNN "Mouser Link"
+F 7 "634-CP2104-F03-GM" H 2400 6050 50  0001 C CNN "Mouser"
 	1    2400 6050
 	1    0    0    -1  
 $EndComp
@@ -17618,8 +17618,10 @@ F 0 "J1" H 1057 6267 50  0000 C CNN
 F 1 "USB_B_Micro" H 1057 6176 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1150 5750 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf" H 1150 5750 50  0001 C CNN
-F 4 "https://ar.mouser.com/ProductDetail/Amphenol-FCI/10104110-0001LF?qs=%2Fha2pyFaduhgqo4mn6c%2FF%2F%2FdJtEtsNLYAPU1cSaXVJFvBbc5r%252BFA%252B%2FK9ZINccakG" H 1000 5800 50  0001 C CNN "Mouser Link"
-F 5 "649-10104110-0001LF" H 1000 5800 50  0001 C CNN "Mouser"
+F 4 "Amphenol FCI" H 1000 5800 50  0001 C CNN "Manuf"
+F 5 "10104110-0001LF" H 1000 5800 50  0001 C CNN "Manuf#"
+F 6 "https://ar.mouser.com/ProductDetail/Amphenol-FCI/10104110-0001LF?qs=%2Fha2pyFaduhgqo4mn6c%2FF%2F%2FdJtEtsNLYAPU1cSaXVJFvBbc5r%252BFA%252B%2FK9ZINccakG" H 1000 5800 50  0001 C CNN "Mouser Link"
+F 7 "649-10104110-0001LF" H 1000 5800 50  0001 C CNN "Mouser"
 	1    1000 5800
 	1    0    0    -1  
 $EndComp
@@ -17628,11 +17630,28 @@ L Components_TP:H7650-33PR U4
 U 1 1 60E16F0A
 P 10050 4850
 F 0 "U4" H 10050 5092 50  0000 C CNN
-F 1 "H7650-33PR" H 10050 5001 50  0000 C CNN
+F 1 "LDO 3.3v 750mA" H 10050 5001 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 9800 5000 50  0001 C CNN
 F 3 "https://xonstorage.blob.core.windows.net/pdf/siproin_h765033pr_Lcs01_link.pdf" H 9800 5000 50  0001 C CNN
-F 4 "-" H 10050 4850 50  0001 C CNN "Mouser"
+F 4 "Siproin" H 10050 4850 50  0001 C CNN "Manuf"
+F 5 "H7650-33PR" H 10050 4850 50  0001 C CNN "Manuf#"
+F 6 "" H 10050 4850 50  0001 C CNN "Mouser"
 	1    10050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Components_TP:ESP-12 U2
+U 1 1 60E12E5A
+P 3050 2050
+F 0 "U2" H 2600 2750 50  0000 C CNN
+F 1 "ESP-12" H 2700 2650 50  0000 C CNN
+F 2 "TP_Footprints:ESP-12E" H 2600 2650 50  0001 C CNN
+F 3 "https://www.elecrow.com/download/ESP-12S_User_Manual.pdf" H 2600 2650 50  0001 C CNN
+F 4 "Espressif" H 3050 2050 50  0001 C CNN "Manuf"
+F 5 "" H 3050 2050 50  0001 C CNN "Manuf#"
+F 6 "" H 3050 2050 50  0001 C CNN "Mouser Link"
+F 7 "" H 3050 2050 50  0001 C CNN "Mouser"
+	1    3050 2050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
